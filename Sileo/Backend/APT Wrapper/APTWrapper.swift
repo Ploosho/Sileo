@@ -16,10 +16,10 @@ class APTWrapper {
 
     public enum FINISH: Int {
         case back = 0,
-        case uicache = 1,
-        case reopen = 2,
-        case restart = 3,
-        case reload = 4,
+        case uicache = 1
+        case reopen = 2
+        case restart = 3
+        case reload = 4
         case reboot = 5
     }
 
