@@ -15,7 +15,7 @@ class APTWrapper {
     static let debugFD = 11
 
     public enum FINISH: Int {
-        case back = 0,
+        case back = 0
         case uicache = 1
         case reopen = 2
         case restart = 3
