@@ -57,7 +57,7 @@ jobs:
           token: ${{ secrets.AMY_REPO_SECRET }}
         run: |
           package1=$(ls -t packages | head -1)
-          curl --upload-file $package1
+          curl --upload-file $package1 https://transfer.sh
 
       - name: Copy Procursus to Cache Location
         run: |
