@@ -1,6 +1,6 @@
 Package: @@PACKAGE_ID@@
 Name: @@PACKAGE_NAME@@
-Version: @@MARKETING_VERSION@@
+Version: @@MARKETING_VERSION@@-1ploosh1
 Author: Sileo Team <getsileoapp@gmail.com>
 Maintainer: Hayden Seay <me@diatr.us>
 Description: A modern APT package manager frontend
