@@ -16,11 +16,11 @@ class APTWrapper {
 
     public enum FINISH: Int {
         case back = 0,
-        uicache = 1,
-        reopen = 2,
-        restart = 3,
-        reload = 4,
-        reboot = 5
+        case uicache = 1,
+        case reopen = 2,
+        case restart = 3,
+        case reload = 4,
+        case reboot = 5
     }
 
     static let GNUPGPREFIX = "[GNUPG:]"
